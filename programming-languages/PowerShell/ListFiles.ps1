@@ -1,0 +1,1 @@
+Get-ChildItem -Path C:\Users\<user>\Desktop -Recurse | Where-Object { $_.PSIsContainer -eq $false }
